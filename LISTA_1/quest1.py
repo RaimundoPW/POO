@@ -8,8 +8,8 @@ class Carro:
 
 
 #METODOS
-    def apresentar(self):
-        print(f"Olá, esse é o {self.marca} {self.modelo} {self.ano}")
+    def descrever(self):
+        print(f"Marca: {self.marca} {self.modelo} {self.ano}")
 
 
 
@@ -18,5 +18,5 @@ c1 = Carro("Toyota", "Corolla",2025)
 c2 = Carro("KOA", "Tiggo",2025)
 
 #CHAMANDO UM MÉTODO!
-c1.apresentar()
-c2.apresentar()
+c1.descrever()
+c2.descrever()

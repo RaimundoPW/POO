@@ -18,7 +18,7 @@ class Carro:
 
 #CRIANDO OBJETOS:
 c1 = Carro("Toyota", "Corolla")
-c2 = Carro("Toyota", "Corolla") 
+c2 = Carro("Hyunday", "Creta") 
 
 #CHAMANDO UM MÉTODO!
 c1.ligar()
